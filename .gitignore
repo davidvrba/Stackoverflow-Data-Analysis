@@ -1,0 +1,10 @@
+.ipynb_checkpoints
+output
+metastore_db
+derby.log
+spark-warehouse
+*.crc
+test
+.log
+preparation
+.DS_Store
