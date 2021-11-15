@@ -7,6 +7,8 @@ pip3 install boto3
 pip3 install requests
 apt-get install p7zip-full
 mkdir data
-cd src
-python3 data_download.py 
+cd /home/ubuntu/
+python3 Stackoverflow-Data-Analysis/src/data_download.py 
+cd data
+7z x /home/ubuntu/data/data.7z
 jupyter notebook --nobrowser --port=8888
