@@ -2,7 +2,7 @@ import requests
 
 url = 'https://archive.org/download/stackexchange/stackoverflow.com-Posts.7z'
 
-local_filename =  'data/data.7z'
+local_filename =  'data/posts.7z'
 with requests.get(url, stream=True) as r:
     r.raise_for_status()
     with open(local_filename, 'wb') as f:

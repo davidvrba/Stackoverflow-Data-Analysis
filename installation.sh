@@ -8,6 +8,4 @@ pip3 install requests
 apt-get install p7zip-full
 mkdir data
 python3 Stackoverflow-Data-Analysis/src/data_download.py
-cd data
 7z x /home/ubuntu/data/posts.7z
-jupyter notebook --nobrowser --port=8888
